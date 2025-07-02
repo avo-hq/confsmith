@@ -9,11 +9,12 @@ module Confsmith
       end
     end
 
-    # Add our the javascript directory to the assets path
-    initializer "confsmith.assets.precompile" do |app|
-      if Rails.application.config.respond_to?(:assets)
-        app.config.assets.paths << Engine.root.join("app/javascript/").to_s
-      end
-    end
+    # removed after we added bundling to the engine
+    # # Add our the javascript directory to the assets path
+    # initializer "confsmith.assets.precompile" do |app|
+    #   if Rails.application.config.respond_to?(:assets)
+    #     app.config.assets.paths << Engine.root.join("app/javascript/").to_s
+    #   end
+    # end
   end
 end

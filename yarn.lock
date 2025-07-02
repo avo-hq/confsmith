@@ -127,6 +127,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.25.5.tgz#7fc114af5f6563f19f73324b5d5ff36ece0803d1"
   integrity sha512-TXv6YnJ8ZMVdX+SXWVBo/0p8LTcrUYngpWjvm91TMjjBQii7Oz11Lw5lbDV5Y0TzuhSJHwiH4hEtC1I42mMS0g==
 
+canvas-confetti@^1.6.0:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/canvas-confetti/-/canvas-confetti-1.9.3.tgz#ef4c857420ad8045ab4abe8547261c8cdf229845"
+  integrity sha512-rFfTURMvmVEX1gyXFgn5QMn81bYk70qa0HLzcIOSVEyl57n6o9ItHeBtUSWdvKAPY0xlvBHno4/v3QPrT83q9g==
+
 esbuild@^0.25.5:
   version "0.25.5"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.25.5.tgz#71075054993fdfae76c66586f9b9c1f8d7edd430"
@@ -157,3 +162,10 @@ esbuild@^0.25.5:
     "@esbuild/win32-arm64" "0.25.5"
     "@esbuild/win32-ia32" "0.25.5"
     "@esbuild/win32-x64" "0.25.5"
+
+stimulus-confetti@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/stimulus-confetti/-/stimulus-confetti-1.0.1.tgz#d8815c863e214c434b9c1c65aa0e58f619e4dd75"
+  integrity sha512-8LZExQpvx5bajwuaCh6TUAfIUgAIjuGowNGOfz7GMZqGXG7S2H9T2h9AyJVJEb9YIJTykiZ8+1h7eq8GgPYxLA==
+  dependencies:
+    canvas-confetti "^1.6.0"
