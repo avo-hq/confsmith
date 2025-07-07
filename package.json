@@ -1,6 +1,5 @@
 {
-  "name": "app",
-  "private": true,
+  "name": "@avo-hq/confsmith",
   "devDependencies": {
     "esbuild": "^0.25.5"
   },
@@ -9,5 +8,16 @@
   },
   "dependencies": {
     "stimulus-confetti": "^1.0.1"
-  }
+  },
+  "files": [
+    "app/assets/builds/confsmith.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:avo-hq/confsmith.git",
+  "author": "Adrian <adrian@adrianthedev.com>",
+  "license": "MIT"
 }
