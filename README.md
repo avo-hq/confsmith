@@ -1,8 +1,6 @@
 # Confsmith
-Short description and motivation.
 
-## Usage
-How to use my plugin.
+This is a dummy engine built to demo the asset pipeline capabilities when used inside a gem.
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -16,10 +14,9 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
-```bash
-$ gem install confsmith
-```
+## Accompanying apps
+
+https://github.com/avo-hq/importmap-rails and https://github.com/avo-hq/prop-rails
 
 ## Contributing
 Contribution directions go here.
