@@ -20,7 +20,7 @@ https://github.com/avo-hq/importmap-rails and https://github.com/avo-hq/prop-rai
 
 ## Presentation
 
-You can find the presentation [here](https://github.com/avo-hq/confsmith/blob/main/RailsConf-25-Master-the-asset-pipeline.pdf)
+You can find the slides [here](https://github.com/avo-hq/confsmith/blob/main/RailsConf-25-Master-the-asset-pipeline.pdf)
 
 ## Contributing
 Contribution directions go here.
